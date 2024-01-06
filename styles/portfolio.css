@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&family=Open+Sans:wght@700;800&display=swap');
+
 /* common shared styles */
 body{
     font-family: 'Lato', sans-serif;
@@ -66,9 +68,9 @@ nav a{
 /* header related style */
 .header{
     background-color:#FFF8F3 ;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"),url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
 
 }
 .banner{
